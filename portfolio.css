@@ -1,0 +1,304 @@
+@charset "UTF-8"
+
+body
+{
+	font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+}
+
+html
+{
+	scroll-behavior:smooth;
+}
+
+/*-------------------------------------------------------------
+//Home
+-------------------------------------------------------------*/
+#home
+{
+	background: linear-gradient(65deg,rgba(190,44,255,0.4),rgba(44,171,255,0.7)),url(C:/Users/tnakahara/Desktop/portfolio/background01.jpg);
+	background-size:cover;
+
+	height: 800px;
+}
+
+.home_logo01
+{
+	text-align:  center;
+	padding: 0px;
+	color: white;
+	font-size: 60px;
+}
+
+.home_logo02
+{
+	text-align:  center;
+	padding: 50px;
+	color: white;
+	font-size: 40px;
+}
+
+.home_logo03
+{
+	text-align:  center;
+	padding: 0px;
+	color: white;
+	font-size: 40px;
+}
+
+.home_logo04
+{
+	text-align:  center;
+	padding: 50px;
+	color: white;
+	font-size: 30px;
+}
+
+.home_logo04 a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.home_logo04 a:hover
+{
+	background: rgba(50,50,50,0.3);
+}
+
+/*-------------------------------------------------------------
+//Profile
+-------------------------------------------------------------*/
+#profile
+{
+	text-align: center;
+}
+
+.profile_logo01
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 50px;
+}
+
+.profile_logo02
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 30px;
+}
+
+.profile_logo03
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 40px;
+}
+
+.profile_logo04
+{
+	display: inline-block;
+	text-align: left;
+	padding: 0px;
+	color: black;
+	font-size: 18px;
+}
+
+.profile_logo05
+{
+	text-align: center;
+	padding: 15px;
+	color: black;
+	font-size: 30px;
+}
+
+.profile_logo06 img
+{
+	text-align: center;
+	width: 100px;
+	padding: 0px;
+}
+
+/*-------------------------------------------------------------
+//Works
+-------------------------------------------------------------*/
+#works
+{
+	text-align: center;
+}
+
+.works_logo01
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 50px;
+}
+
+.works_logo02
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 30px;
+}
+
+.works_logo03
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 18px;
+}
+
+.hidden_box
+{
+	margin: 2em 0;
+	padding: 0;
+	text-align: center;
+}
+
+.hidden_box label img
+{
+	padding: 5px;
+	cursor: pointer;
+	width: 200px;
+}
+
+.hidden_box img:hover
+{
+	background: #efefef;
+}
+
+.hidden_box input
+{
+	display: none;
+}
+
+.hidden_box .hidden_show
+{
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	opacity: 0;
+	transition: 0.8s;
+}
+
+.hidden_box input:checked~ .hidden_show
+{
+	padding: 10px 0;
+	height: auto;
+	opacity: 1;
+	background: #efefef;
+}
+
+.works_logo04
+{
+	text-align:  center;
+	padding: 10px;
+	color: black;
+	font-size: 40px;
+}
+
+.works_logo05
+{
+	display: inline-block;
+	text-align: left;
+	padding: 0px;
+	width: 1000px;
+	color: black;
+	font-size: 18px;
+}
+
+.works_logo05 img
+{
+	width: 50px;
+}
+
+/*-------------------------------------------------------------
+//Contact
+-------------------------------------------------------------*/
+#contact
+{
+	text-align: center;
+	background: black;
+	height: 500px;
+}
+
+.contact_logo01
+{
+	text-align:  center;
+	padding: 30px;
+	color: white;
+	font-size: 50px;
+}
+
+.contact_logo02
+{
+	text-align:  center;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+}
+
+.contact_logo03
+{
+	display: inline-block;
+	text-align:  left;
+	padding: 30px;
+	color: white;
+	background: gray;
+	width: 450px;
+	font-size: 35px;
+}
+
+.contact_logo04
+{
+	text-align:  center;
+	padding: 50px;
+	color: white;
+	font-size: 30px;
+}
+
+.contact_logo04 a
+{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border: solid 1px;
+}
+
+.contact_logo04 a:hover
+{
+	background: rgba(50,50,50,1);
+}
+
+/*-------------------------------------------------------------
+//その他
+-------------------------------------------------------------*/
+.blank01
+{
+	letter-spacing: 0.5em;
+}
+
+.blank02
+{
+	letter-spacing: 1.5em;
+}
+
+.blank03
+{
+	letter-spacing: 8em;
+}
+
+.blueColor
+{
+	color: blue;
+	font-weight: bold;
+}
+
+.border01
+{
+	border-bottom: solid 0.5px black;
+}
