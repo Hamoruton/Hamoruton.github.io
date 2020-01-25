@@ -74,7 +74,7 @@ html
 
 .profile_logo01
 {
-	text-align:  center;
+	text-align:  left;
 	padding: 0px;
 	color: black;
 	font-size: 50px;
@@ -88,9 +88,16 @@ html
 	font-size: 30px;
 }
 
+.profile_logo02 img
+{
+	width: 180px;
+	height: 180px;
+	padding-right: 50px
+}
+
 .profile_logo03
 {
-	text-align:  center;
+	text-align:  left;
 	padding: 0px;
 	color: black;
 	font-size: 40px;
