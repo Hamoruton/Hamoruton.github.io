@@ -224,6 +224,144 @@ html
 }
 
 /*-------------------------------------------------------------
+//Games
+-------------------------------------------------------------*/
+#Games
+{
+	text-align: center;
+}
+
+.Games_logo01
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 50px;
+}
+
+.Games_logo02
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 30px;
+}
+
+.Games_logo03
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 18px;
+	margin: 20px;
+}
+
+.Game_logo04 img
+{
+	text-align: center;
+	width: 100px;
+	padding: 0px;
+}
+
+.Game_logo05 img
+{
+	text-align: center;
+	width: 80px;
+	padding: 0px;
+}
+
+.Game_logo06 img
+{
+	text-align: center;
+	width: 150px;
+	padding: 0px;
+}
+
+.Games_logo07
+{
+	display: inline-block;
+	text-align: center;
+	padding: 0px;
+	width: 1000px;
+	color: black;
+	font-size: 18px;
+}
+
+/*-------------------------------------------------------------
+//Anime/Comic
+-------------------------------------------------------------*/
+#AmimeComic
+{
+	text-align: center;
+}
+
+.AnimeComic_logo01
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 50px;
+}
+
+.AnimeComic_logo02
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 30px;
+}
+
+.AnimeComic_logo03
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 18px;
+	margin: 20px;
+}
+
+.AnimeComic_logo04 img
+{
+	text-align: center;
+	width: 150px;
+	height: 100px;
+	padding: 0px;
+}
+
+/*-------------------------------------------------------------
+//Other
+-------------------------------------------------------------*/
+#Other
+{
+	text-align: center;
+}
+
+.Other_logo01
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 50px;
+}
+
+.Other_logo02
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 30px;
+}
+
+.Other_logo03
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 18px;
+	margin: 20px;
+}
+
+/*-------------------------------------------------------------
 //Contact
 -------------------------------------------------------------*/
 #contact
