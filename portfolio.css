@@ -224,6 +224,38 @@ html
 }
 
 /*-------------------------------------------------------------
+//Diary
+-------------------------------------------------------------*/
+#Diary
+{
+	text-align: center;
+}
+
+.Diary_logo01
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 50px;
+}
+
+.Diary_logo02
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 30px;
+}
+
+.Diary_logo03
+{
+	text-align:  center;
+	padding: 0px;
+	color: black;
+	font-size: 18px;
+}
+
+/*-------------------------------------------------------------
 //Games
 -------------------------------------------------------------*/
 #Games
